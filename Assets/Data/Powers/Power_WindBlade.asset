@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930436332b6b40b4494d2a1b8cbb629b, type: 3}
+  m_Name: Power_WindBlade
+  m_EditorClassIdentifier: Assembly-CSharp::PowerData
+  powerName: Lamina de Vento
+  manaCost: 25
+  cooldown: 3
+  animationState: Power_Wind
+  blendIn: 0.05
+  castDelay: 0.37
+  duration: 0.75
+  projectile: {fileID: 1002540453601522991, guid: 8e333b98f95ba2f42a3becc332847b97, type: 3}
+  spawnOffset: {x: 0, y: 0, z: 0.8}
+  speed: 18
+  range: 12
+  damage: 14
+  knockback: 4
+  launch: 1
